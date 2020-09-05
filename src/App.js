@@ -12,7 +12,7 @@ import NoMatch from './NoMatch/NoMatch';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Router>
         <Switch>
           <Route exact path="/">

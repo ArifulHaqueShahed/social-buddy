@@ -13,8 +13,9 @@ const Post = (props) => {
         root: {
           minWidth: 275,
           margin: 40,
-          marginTop: 60,
-          paddingTop: 30
+          marginTop: 30,
+          paddingTop: 30,
+          marginRight: 250
         },
         bullet: {
           display: 'inline-block',

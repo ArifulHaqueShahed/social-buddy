@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Post from '../Post/Post';
+import Navbar from '../Navbar/Navbar';
+
 
 const Home = () => {
     const [posts, setPosts] = useState([]);
@@ -11,6 +13,8 @@ const Home = () => {
     },[])
     return (
         <>
+            <Navbar></Navbar> 
+            
             {
                 posts.map(post => <Post key={post.id} post={post}></Post>)
             }

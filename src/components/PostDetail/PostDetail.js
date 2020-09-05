@@ -70,7 +70,7 @@ const PostDetail = (props) => {
             <hr/>
 
             <div className="comment-section-style">
-            <h1>All Comments :</h1>
+            <h2>All Comments :</h2>
             {
                 comments.map(comment => <Comment key={comment.id} comment={comment}></Comment>)
             }
