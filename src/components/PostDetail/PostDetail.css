@@ -1,0 +1,13 @@
+.comment-section-style{
+    text-align: left;
+    color: firebrick;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.post-title{
+    font-size: 18px;
+    color: red;
+}
+.post-body{
+    color: red;
+}
