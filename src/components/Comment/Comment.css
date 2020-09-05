@@ -1,9 +1,10 @@
 h5{
-    color: black;
+    color: lemonchiffon;
     font-size: large;
 }
 .comment-style{
-    background-color: lemonchiffon;
+    color: rgb(214, 213, 203);
+    background-color: gray;
     padding: 10px;
     border-radius: 10px;
     margin-right: 20px;

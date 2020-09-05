@@ -13,7 +13,6 @@ const Comment = (props) => {
     return (
         <div className="comment-style row">
             <div className="column">
-                <h4>ID : {id}</h4>
                 <h5>Comment : {body}</h5>
                 <p>Name : {name}</p>
                 <p>Email : {email}</p>

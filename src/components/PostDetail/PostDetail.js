@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Comment from '../Comment/Comment';
 
+
 const PostDetail = (props) => {
     const { postId } = useParams();
 
@@ -66,6 +67,7 @@ const PostDetail = (props) => {
                    <span className="post-body"> Post :</span> {info.body}
                 </Typography>
             </CardContent>
+            <hr/>
 
             <div className="comment-section-style">
             <h1>All Comments :</h1>
@@ -74,6 +76,7 @@ const PostDetail = (props) => {
             }
             </div>
            </Card>
+           
         </>
     );
 };
