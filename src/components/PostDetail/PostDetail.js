@@ -17,6 +17,7 @@ const PostDetail = (props) => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
         .then(res => res.json())
         .then(data => setPostDetails(data))
+        .catch(error => alert(error))
      },[])
 
     useEffect(()=> {
@@ -28,7 +29,7 @@ const PostDetail = (props) => {
         const useStyles = makeStyles({
             root: {
               minWidth: 275,
-              margin: 40,
+              margin: 70,
               marginTop: 20
             },
             bullet: {

@@ -2,12 +2,13 @@
     text-align: left;
     color: firebrick;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 .post-title{
-    font-size: 18px;
-    color: red;
+    font-size: 20px;
+    color: firebrick;
 }
 .post-body{
-    color: red;
+    color: firebrick;
+    font-size: 26px;
 }
