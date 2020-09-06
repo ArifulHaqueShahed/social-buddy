@@ -22,7 +22,7 @@ const PostDetail = (props) => {
      },[])
 
     useEffect(()=> {
-        fetch(`http://jsonplaceholder.typicode.com/comments?postId=${postId}`)
+        fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`)
         .then(res => res.json())
         .then(data => setComments(data))
     },[])
@@ -70,10 +70,10 @@ const PostDetail = (props) => {
             <hr/>
 
             <div className="comment-section-style">
-            <h2>All Comments :</h2>
-            {
-                comments.map(comment => <Comment key={comment.id} comment={comment}></Comment>)
-            }
+              <h2>All Comments :</h2>
+                {
+                    comments.map(comment => <Comment key={comment.id} comment={comment}></Comment>)
+                }
             </div>
            </Card>
            
